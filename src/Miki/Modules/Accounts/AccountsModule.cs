@@ -780,7 +780,7 @@ namespace Miki.Modules.Accounts
             }
         }
 
-        [Command("setbackcolor")]
+        [Command("setbackcolor", "setbackcolour")]
         public async Task SetProfileBackColorAsync(IContext e)
         {
             var transactionService = e.GetService<ITransactionService>();
@@ -819,7 +819,7 @@ namespace Miki.Modules.Accounts
             }
         }
 
-        [Command("setfrontcolor")]
+        [Command("setfrontcolor", "setfrontcolour")]
         public async Task SetProfileForeColorAsync(IContext e)
         {
             var transactionService = e.GetService<ITransactionService>();
